@@ -37,12 +37,12 @@ struct Rectangle: Shape {
     
 }
 
-struct Arc: Shape {
-    
+struct Arc: InsettableShape {
+
     var startAngle: Angle
     var endAngle: Angle
     var clockwise: Bool
-    
+    var insetAmount: CGFloat = 0
 
     
     func path(in rect: CGRect) -> Path {
@@ -52,16 +52,24 @@ struct Arc: Shape {
         
         var path = Path()
 
-        path.addArc(center: CGPoint(x: rect.midX, y: rect.midY), radius: rect.width/2, startAngle: modifiedStart, endAngle: modifiedEnd, clockwise: !clockwise)
+        path.addArc(center: CGPoint(x: rect.midX, y: rect.midY), radius: rect.width/2 - insetAmount, startAngle: modifiedStart, endAngle: modifiedEnd, clockwise: !clockwise)
         return path
+    }
+    
+    func inset(by amount: CGFloat) -> some InsettableShape {
+        var arc = self
+        arc.insetAmount += amount
+        return arc
     }
 }
 struct ContentView: View {
     var body: some View {
-        
-        Arc(startAngle: .degrees(0), endAngle: .degrees(270), clockwise: true)
-        .stroke(Color.red, lineWidth: 10)
-        .frame(width: 300, height: 300)
+            Arc(startAngle: .degrees(0), endAngle: .degrees(90), clockwise: true)
+            .strokeBorder(Color.red, lineWidth: 10)
+            .frame(width: 300, height: 300)
+
+
+
 //        Rectangle()
 //            .stroke(Color.blue, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
 //        .frame(width: 300, height: 300)
