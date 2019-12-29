@@ -13,6 +13,7 @@
 		250D0AE423B6AB50001E1935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250D0AE323B6AB50001E1935 /* Assets.xcassets */; };
 		250D0AE723B6AB50001E1935 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250D0AE623B6AB50001E1935 /* Preview Assets.xcassets */; };
 		250D0AEA23B6AB50001E1935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250D0AE823B6AB50001E1935 /* LaunchScreen.storyboard */; };
+		2530257623B9403100160C80 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2530257523B9403100160C80 /* SpirographView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		250D0AE623B6AB50001E1935 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		250D0AE923B6AB50001E1935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		250D0AEB23B6AB50001E1935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2530257523B9403100160C80 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				250D0ADD23B6AB4C001E1935 /* AppDelegate.swift */,
 				250D0ADF23B6AB4C001E1935 /* SceneDelegate.swift */,
 				250D0AE123B6AB4C001E1935 /* ContentView.swift */,
+				2530257523B9403100160C80 /* SpirographView.swift */,
 				250D0AE323B6AB50001E1935 /* Assets.xcassets */,
 				250D0AE823B6AB50001E1935 /* LaunchScreen.storyboard */,
 				250D0AEB23B6AB50001E1935 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				250D0ADE23B6AB4C001E1935 /* AppDelegate.swift in Sources */,
+				2530257623B9403100160C80 /* SpirographView.swift in Sources */,
 				250D0AE023B6AB4C001E1935 /* SceneDelegate.swift in Sources */,
 				250D0AE223B6AB4C001E1935 /* ContentView.swift in Sources */,
 			);
