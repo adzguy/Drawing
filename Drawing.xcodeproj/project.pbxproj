@@ -14,6 +14,9 @@
 		250D0AE723B6AB50001E1935 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250D0AE623B6AB50001E1935 /* Preview Assets.xcassets */; };
 		250D0AEA23B6AB50001E1935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250D0AE823B6AB50001E1935 /* LaunchScreen.storyboard */; };
 		2530257623B9403100160C80 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2530257523B9403100160C80 /* SpirographView.swift */; };
+		253025A823BDEFE000160C80 /* ArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253025A723BDEFDF00160C80 /* ArrayView.swift */; };
+		253025AA23BDEFF800160C80 /* ColorCyclingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253025A923BDEFF800160C80 /* ColorCyclingCircleView.swift */; };
+		253025AC23BDF01700160C80 /* ColorCyclingRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253025AB23BDF01700160C80 /* ColorCyclingRectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		250D0AE923B6AB50001E1935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		250D0AEB23B6AB50001E1935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2530257523B9403100160C80 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
+		253025A723BDEFDF00160C80 /* ArrayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayView.swift; sourceTree = "<group>"; };
+		253025A923BDEFF800160C80 /* ColorCyclingCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircleView.swift; sourceTree = "<group>"; };
+		253025AB23BDF01700160C80 /* ColorCyclingRectangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCyclingRectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				250D0ADF23B6AB4C001E1935 /* SceneDelegate.swift */,
 				250D0AE123B6AB4C001E1935 /* ContentView.swift */,
 				2530257523B9403100160C80 /* SpirographView.swift */,
+				253025A923BDEFF800160C80 /* ColorCyclingCircleView.swift */,
+				253025AB23BDF01700160C80 /* ColorCyclingRectangleView.swift */,
+				253025A723BDEFDF00160C80 /* ArrayView.swift */,
 				250D0AE323B6AB50001E1935 /* Assets.xcassets */,
 				250D0AE823B6AB50001E1935 /* LaunchScreen.storyboard */,
 				250D0AEB23B6AB50001E1935 /* Info.plist */,
@@ -151,7 +160,10 @@
 			files = (
 				250D0ADE23B6AB4C001E1935 /* AppDelegate.swift in Sources */,
 				2530257623B9403100160C80 /* SpirographView.swift in Sources */,
+				253025A823BDEFE000160C80 /* ArrayView.swift in Sources */,
 				250D0AE023B6AB4C001E1935 /* SceneDelegate.swift in Sources */,
+				253025AC23BDF01700160C80 /* ColorCyclingRectangleView.swift in Sources */,
+				253025AA23BDEFF800160C80 /* ColorCyclingCircleView.swift in Sources */,
 				250D0AE223B6AB4C001E1935 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
